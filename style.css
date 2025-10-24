@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+/* ✨ Bridgerton luxe theme ✨ */
+body {
+  background-color: #f9f8f6; /* creamy white */
+  color: #3b3b3b;
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #f1efeb; /* soft cream grey */
+  border-bottom: 2px solid #d8d5d0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 25px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  color: #3b3b3b;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #3b3b3b;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 12px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #bfa27a; /* elegant gold hover */
+}
+
+/* Product section */
+#produits {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+#produits h2 {
+  font-size: 2rem;
+  color: #2f2f2f;
+  margin-bottom: 40px;
+}
+
+/* Grid */
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* Product cards */
+.product-card {
+  background-color: #ffffff;
+  border: 1px solid #e2dfdb;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  padding: 20px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15;
+  display: block;
+}
+
+.product-card h3 {
+  color: #2e2e2e;
+  font-size: 1.35rem;
+  font-weight: 600; /* makes it thicker darker but still elegant */
+  margin: 0;
+  padding-top: 3px;
+  letter-spacing: 0.3px; 
+  font-family: "Playfair Display", serif; /* classy Bridgerton style */
+}
+
+
+
+.product-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+button, .buy-btn {
+  background-color: #bfa27a; /* soft gold beige */
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 22px;
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover, .buy-btn:hover {
+  background-color: #d1b890;
+}
+
+/* Footer */
+footer {
+  background-color: #f1efeb;
+  border-top: 2px solid #d8d5d0;
+  color: #5a5855;
+  padding: 20px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 0.95rem;
+}

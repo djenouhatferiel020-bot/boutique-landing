@@ -1,0 +1,4 @@
+J’ai choisi un design simple et élégant inspiré des boutiques de luxe.
+La palette utilise des tons crème et dorés pour un effet raffiné.
+La police “Playfair Display” apporte une touche chic et classique.
+La page est entièrement responsive pour tous les écrans.
